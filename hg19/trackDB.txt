@@ -1,40 +1,71 @@
-track phs_dG15
+track PCCR_dG15
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15.bb
-shortLabel phs_dG15
-longLabel phs dG <= -15 kcal/mol
+visibility 3
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-15.bb
+shortLabel PCCR_dG15
+longLabel PCCR dG <= -15 kcal/mol
 
-track phs_dG20
+track PCCR_dG20
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-20.bb
-shortLabel phs_dG20
-longLabel phs dG <= -20 kcal/mol
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-20.bb
+shortLabel PCCR_dG20
+longLabel PCCR dG <= -20 kcal/mol
 
-track phs_dG25
+track PCCR_dG25
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-25.bb
-shortLabel phs_dG25
-longLabel phs dG <= -25 kcal/mol
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-25.bb
+shortLabel PCCR_dG25
+longLabel PCCR dG <= -25 kcal/mol
 
-track phs_dG30
+track PCCR_dG30
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-30.bb
-shortLabel phs_dG30
-longLabel phs dG <= -30 kcal/mol
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-30.bb
+shortLabel PCCR_dG30
+longLabel PCCR dG <= -30 kcal/mol
 
-track phs_known_structures
+track PCCR_spread1000
 type bigBed 12 +
-exonArrows on
 exonNumbers on
 itemRgb on
-bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_known_structures.bb
-shortLabel phs_known_structures
-longLabel phs intersected with known long-range RNA structures
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_1000.bb
+shortLabel PCCR_spread1000
+longLabel PCCR spread <= 1000 nts
+
+track PCCR_spread100
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_100.bb
+shortLabel PCCR_spread100
+longLabel PCCR spread <= 100 nts
+
+track PCCR_evalue0.5
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.5.bb
+shortLabel PCCR_evalue0.5
+longLabel PCCR evalue <= 0.5
+
+track PCCR_evalue0.05
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.05.bb
+shortLabel PCCR_evalue0.05
+longLabel PCCR evalue <= 0.05
