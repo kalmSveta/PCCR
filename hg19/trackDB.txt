@@ -82,18 +82,18 @@ longLabel known long-range RNA structures
 
 track icSHAPE_ch_plus
 viewLimits 0:1
-bigDataUrl icSHAPE/hek_ch_vivo_positive_hg19.BigWig
+bigDataUrl hek_ch_vivo_positive_hg19.BigWig
 shortLabel icSHAPE_ch_plus
 longLabel icSHAPE in Hek chromatin plus strand
 color 255,0,0
-visibility full
+visibility 0
 type bigWig
 
 track icSHAPE_ch_min
 viewLimits 0:1
 color 0,0,255
-visibility full
-bigDataUrl icSHAPE/hek_ch_vivo_negative_hg19.BigWig
+visibility 0
+bigDataUrl hek_ch_vivo_negative_hg19.BigWig
 shortLabel icSHAPE_ch_min
 longLabel icSHAPE in Hek chromatin minus strand
 type bigWig
