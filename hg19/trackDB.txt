@@ -69,3 +69,13 @@ visibility 0
 bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_evo_qvalue_cutoff_0.05.bb
 shortLabel PCCR_evalue0.05
 longLabel PCCR evalue <= 0.05
+
+
+track known_RNA_structures
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_known_structures.bb
+shortLabel known_structures
+longLabel known long-range RNA structures 
