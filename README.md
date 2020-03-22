@@ -33,7 +33,10 @@ PCCRs intersected with known long-range RNA structures
 Probing data intersected with PCCRs:
 - icSHAPE, PARIS, LigRseq
 ----------------------------------------------------------
-Experimental data of RNA polII inhibition:
+Experimental data of RNA pol II inhibition:
 - a-amanitin 1 mcg/mL
 - a-amanitin 2 mcg/mL 
 - R749H mutation
+Color of exonn indicate sign of delta PSI = PSIcase - PSIctr:
+blue - dPSI < 0
+red - dPSI > 0
