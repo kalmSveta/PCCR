@@ -117,3 +117,12 @@ bigDataUrl LiGRSeq_both_reps.bb
 shortLabel LIGR-seq
 longLabel LIGR-seq
 
+
+track slow_RNApolII
+type bigBed 6
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl slow_pol_track.bb
+shortLabel slow_RNApolII
+longLabel slow RNApolII
