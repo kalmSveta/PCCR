@@ -119,7 +119,7 @@ longLabel LIGR-seq
 
 
 track slow_RNApolII
-type bigBed 6
+type bigBed 6+
 exonNumbers on
 itemRgb on
 visibility 0
