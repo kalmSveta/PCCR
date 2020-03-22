@@ -97,3 +97,23 @@ bigDataUrl hek_ch_vivo_negative_hg19.BigWig
 shortLabel icSHAPE_ch_min
 longLabel icSHAPE in Hek chromatin minus strand
 type bigWig
+
+
+track PARIS
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl PARIS.bb
+shortLabel PARIS
+longLabel PARIS
+
+track LIGR-seq               
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl LiGRSeq_both_reps.bb
+shortLabel LIGR-seq
+longLabel LIGR-seq
+
