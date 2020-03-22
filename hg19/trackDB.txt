@@ -125,4 +125,4 @@ itemRgb on
 visibility 0
 bigDataUrl slow_pol_track.bb
 shortLabel slow_RNApolII
-longLabel slow RNApolII
+longLabel slow RNApol II
