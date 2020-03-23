@@ -3,7 +3,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 3
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-15.bb
+bigDataUrl panhandles_preprocessed_filtered_energy_cutoff_-15.bb
 shortLabel PCCR_dG15
 longLabel PCCR dG <= -15 kcal/mol
 
@@ -12,7 +12,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-20.bb
+bigDataUrl panhandles_preprocessed_filtered_energy_cutoff_-20.bb
 shortLabel PCCR_dG20
 longLabel PCCR dG <= -20 kcal/mol
 
@@ -21,7 +21,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-25.bb
+bigDataUrl panhandles_preprocessed_filtered_energy_cutoff_-25.bb
 shortLabel PCCR_dG25
 longLabel PCCR dG <= -25 kcal/mol
 
@@ -30,7 +30,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-30.bb
+bigDataUrl panhandles_preprocessed_filtered_energy_cutoff_-30.bb
 shortLabel PCCR_dG30
 longLabel PCCR dG <= -30 kcal/mol
 
@@ -39,7 +39,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_1000.bb
+bigDataUrl panhandles_preprocessed_filtered_spread_cutoff_1000.bb
 shortLabel PCCR_spread1000
 longLabel PCCR spread <= 1000 nts
 
@@ -48,7 +48,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_100.bb
+bigDataUrl panhandles_preprocessed_filtered_spread_cutoff_100.bb
 shortLabel PCCR_spread100
 longLabel PCCR spread <= 100 nts
 
@@ -57,7 +57,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_known_structures.bb
+bigDataUrl panhandles_preprocessed_filtered__known_structures.bb
 shortLabel known_structures
 longLabel known long-range RNA structures 
 
