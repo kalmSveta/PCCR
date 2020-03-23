@@ -57,7 +57,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_filtered__known_structures.bb
+bigDataUrl panhandles_preprocessed_filtered_known_structures.bb
 shortLabel known_structures
 longLabel known long-range RNA structures 
 
