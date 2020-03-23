@@ -1,0 +1,109 @@
+track PCCR_dG15
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 3
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-15.bb
+shortLabel PCCR_dG15
+longLabel PCCR dG <= -15 kcal/mol
+
+track PCCR_dG20
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-20.bb
+shortLabel PCCR_dG20
+longLabel PCCR dG <= -20 kcal/mol
+
+track PCCR_dG25
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-25.bb
+shortLabel PCCR_dG25
+longLabel PCCR dG <= -25 kcal/mol
+
+track PCCR_dG30
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_energy_cutoff_-30.bb
+shortLabel PCCR_dG30
+longLabel PCCR dG <= -30 kcal/mol
+
+track PCCR_spread1000
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_1000.bb
+shortLabel PCCR_spread1000
+longLabel PCCR spread <= 1000 nts
+
+track PCCR_spread100
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_spread_cutoff_100.bb
+shortLabel PCCR_spread100
+longLabel PCCR spread <= 100 nts
+
+track known_RNA_structures
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_filtered_many_ph_removed_known_structures.bb
+shortLabel known_structures
+longLabel known long-range RNA structures 
+
+track icSHAPE_ch_plus
+viewLimits 0:1
+bigDataUrl hek_ch_vivo_positive_hg19.BigWig
+shortLabel icSHAPE_ch_plus
+longLabel icSHAPE in Hek chromatin plus strand
+color 255,0,0
+visibility 0
+type bigWig
+
+track icSHAPE_ch_min
+viewLimits 0:1
+color 0,0,255
+visibility 0
+bigDataUrl hek_ch_vivo_negative_hg19.BigWig
+shortLabel icSHAPE_ch_min
+longLabel icSHAPE in Hek chromatin minus strand
+type bigWig
+
+
+track PARIS
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl PARIS.bb
+shortLabel PARIS
+longLabel PARIS
+
+track LIGR-seq               
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl LiGRSeq_both_reps.bb
+shortLabel LIGR-seq
+longLabel LIGR-seq
+
+
+track slow_RNApolII
+type bigBed 9
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl slow_pol_track.bb
+shortLabel slow_RNApolII
+longLabel slow RNApol II
