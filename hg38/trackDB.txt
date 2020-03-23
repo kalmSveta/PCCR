@@ -103,6 +103,6 @@ type bigBed 9
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl slow_pol_track.bb
+bigDataUrl slow_pol_track_hg38.bb
 shortLabel slow_RNApolII
 longLabel slow RNApol II
