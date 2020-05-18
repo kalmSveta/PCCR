@@ -1,6 +1,13 @@
 # PCCR
 Track Hub for Pairs of Conserved Complementery Regions
 
+## How it works:
+1. Copy the link https://raw.githubusercontent.com/kalmSveta/PCCR/master/hub.txt
+2. Go to UCSC Genome Browser: https://genome.ucsc.edu/
+3. Open My Data -> Track Hubs
+4. Select My Hubs 
+5. Paste the link into the bar and press Add Hub 
+
 Data for two Human genomes is avaliable: Hg19 and Hg38.
 
 The Hub includes the following tracks:
