@@ -47,5 +47,5 @@ The categories are CUMULATIVE. Additionaly, color of the structure indicates mut
 - a-amanitin 2 mcg/mL 
 - R749H mutation\
 Color of exon indicate sign of delta PSI = PSIcase - PSIctr:
-- blue - dPSI < 0
-- red - dPSI > 0
+  - blue - dPSI < 0
+  - red - dPSI > 0
