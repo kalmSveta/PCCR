@@ -3,3 +3,6 @@ trackDb hg19/trackDB.txt
 
 genome hg38
 trackDb hg38/trackDB.txt
+
+genome dm6
+trackDb dm6/trackDB.txt

@@ -1,0 +1,51 @@
+track phs_dG15
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_energy_cutoff_-15.bb
+shortLabel phs_dG15
+longLabel phs dG <= -15 kcal/mol
+
+track phs_dG20
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_energy_cutoff_-20.bb
+shortLabel phs_dG20
+longLabel phs dG <= -20 kcal/mol
+
+track phs_dG25
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-25.bb
+shortLabel phs_dG25
+longLabel phs dG <= -25 kcal/mol
+
+track phs_dG30
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-30.bb
+shortLabel phs_dG30
+longLabel phs dG <= -30 kcal/mol
+
+
+track phs_P4HA1_20Kbp_dG15
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_P4HA1.bb
+shortLabel phs_P4HA1_20Kbp_dG15
+longLabel phs for P4HA1 spread 20Kbp dG <= -15kcal/mol
+
+track phs_known_structures
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15_known_structures.bb
+shortLabel phs_known_structures
+longLabel phs intersected with known long-range RNA structures
+
