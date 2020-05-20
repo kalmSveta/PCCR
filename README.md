@@ -8,7 +8,9 @@ Track Hub for Pairs of Conserved Complementery Regions
 4. Select My Hubs 
 5. Paste the link into the bar and press Add Hub 
 
-Data for two Human genomes is avaliable: Hg19 and Hg38.
+Data is avaliable for:
+- Human: hg19 and hg38
+- Drosophila Melanogaster: dm6
 
 The Hub includes the following tracks:
 
