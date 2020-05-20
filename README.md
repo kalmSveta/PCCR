@@ -12,7 +12,7 @@ Data is avaliable for:
 - Human: hg19 and hg38
 - Drosophila Melanogaster: dm6
 
-## Tracks
+## Tracks:
 
 ### PCCRs classified by the free energy dG, kcal/mol:
 dG <= -15, -20, -25, -30\
