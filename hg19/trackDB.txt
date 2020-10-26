@@ -57,7 +57,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_evo_qvalue_cutoff_0.5.bb
+bigDataUrl panhandles_preprocessed_evo_qvalue_new_cutoff_0_5.bb
 shortLabel PCCR_evalue0.5
 longLabel PCCR evalue <= 0.5
 
@@ -66,7 +66,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_evo_qvalue_cutoff_0.05.bb
+bigDataUrl panhandles_preprocessed_evo_qvalue_new_cutoff_0_05.bb
 shortLabel PCCR_evalue0.05
 longLabel PCCR evalue <= 0.05
 
