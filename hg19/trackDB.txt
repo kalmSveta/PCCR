@@ -1,74 +1,88 @@
-track PCCR_dG15
+track dG<=-15
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 3
-bigDataUrl panhandles_preprocessed_energy_cutoff_-15.bb
-shortLabel PCCR_dG15
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-15_3.bb
+shortLabel dG<=-15
 longLabel PCCR dG <= -15 kcal/mol
 
-track PCCR_dG20
+
+track dG<=-20
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_energy_cutoff_-20.bb
-shortLabel PCCR_dG20
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-20_3.bb
+shortLabel dG<=-20
 longLabel PCCR dG <= -20 kcal/mol
 
-track PCCR_dG25
+
+track dG<=-25
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_energy_cutoff_-25.bb
-shortLabel PCCR_dG25
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-25_3.bb
+shortLabel dG<=-25
 longLabel PCCR dG <= -25 kcal/mol
 
-track PCCR_dG30
+
+track dG<=-30
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_energy_cutoff_-30.bb
-shortLabel PCCR_dG30
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-30_3.bb
+shortLabel dG<=-30
 longLabel PCCR dG <= -30 kcal/mol
 
-track PCCR_spread1000
+
+track spread<=1000
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_spread_cutoff_1000.bb
-shortLabel PCCR_spread1000
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_1000_3.bb
+shortLabel spread<=1000
 longLabel PCCR spread <= 1000 nts
 
-track PCCR_spread100
+track spread<=100
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_spread_cutoff_100.bb
-shortLabel PCCR_spread100
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_100_3.bb
+shortLabel spread<=100
 longLabel PCCR spread <= 100 nts
 
-track PCCR_evalue0.5
+track q-value<1
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_evo_qvalue_new_cutoff_0_5.bb
-shortLabel PCCR_evalue0.5
-longLabel PCCR evalue <= 0.5
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.99_3.bb
+shortLabel q-value<1
+longLabel PCCR q-value < 1
 
-track PCCR_evalue0.05
+
+track q-value<=0.5
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_evo_qvalue_new_cutoff_0_05.bb
-shortLabel PCCR_evalue0.05
-longLabel PCCR evalue <= 0.05
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.5_3.bb
+shortLabel q-value<=0.5
+longLabel PCCR q-value <= 0.5
+
+track q-value<=0.1 
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.1_3.bb
+shortLabel q-value<=0.1 
+longLabel PCCR q-value <= 0.1  
 
 
 track known_RNA_structures
@@ -76,27 +90,9 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_known_structures.bb
+bigDataUrl panhandles_preprocessed_known_structures3.bb
 shortLabel known_structures
 longLabel known long-range RNA structures 
-
-track icSHAPE_ch_plus
-viewLimits 0:1
-bigDataUrl hek_ch_vivo_positive_hg19.BigWig
-shortLabel icSHAPE_ch_plus
-longLabel icSHAPE in Hek chromatin plus strand
-color 255,0,0
-visibility 0
-type bigWig
-
-track icSHAPE_ch_min
-viewLimits 0:1
-color 0,0,255
-visibility 0
-bigDataUrl hek_ch_vivo_negative_hg19.BigWig
-shortLabel icSHAPE_ch_min
-longLabel icSHAPE in Hek chromatin minus strand
-type bigWig
 
 
 track PARIS
@@ -117,12 +113,46 @@ bigDataUrl LiGRSeq_both_reps.bb
 shortLabel LIGR-seq
 longLabel LIGR-seq
 
+track RIC-seq
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl ric2.bb
+shortLabel RIC-seq
+longLabel RIC-seq
 
-track slow_RNApolII
+
+track slow_pol_II
 type bigBed 9
 exonNumbers on
 itemRgb on
 visibility 0
 bigDataUrl slow_pol_track.bb
-shortLabel slow_RNApolII
+shortLabel slow_pol_II
 longLabel slow RNApol II
+
+
+
+track icSHAPE
+type bigWig
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+visibility 0
+shortLabel icSHAPE
+longLabel icSHAPE in Hek chromatin
+viewLimits 0:1
+
+                track icSHAPE_plus_strand
+                type bigWig
+                parent icSHAPE
+                color 255,0,0 
+                bigDataUrl hek_ch_vivo_positive_hg19.BigWig
+
+                track icSHAPE_minus_strand
+                type bigWig
+                parent icSHAPE
+                color 0,0,255 
+                bigDataUrl hek_ch_vivo_negative_hg19.BigWig
