@@ -3,7 +3,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 3
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-15_3.bb
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-15_4.bb
 shortLabel dG<=-15
 longLabel PCCR dG <= -15 kcal/mol
 
@@ -13,7 +13,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-20_3.bb
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-20_4.bb
 shortLabel dG<=-20
 longLabel PCCR dG <= -20 kcal/mol
 
@@ -23,7 +23,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-25_3.bb
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-25_4.bb
 shortLabel dG<=-25
 longLabel PCCR dG <= -25 kcal/mol
 
@@ -33,7 +33,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-30_3.bb
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_energy_cutoff_-30_4.bb
 shortLabel dG<=-30
 longLabel PCCR dG <= -30 kcal/mol
 
@@ -43,7 +43,7 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_1000_3.bb
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_1000_4.bb
 shortLabel spread<=1000
 longLabel PCCR spread <= 1000 nts
 
@@ -52,37 +52,37 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_100_3.bb
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_spread_cutoff_100_4.bb
 shortLabel spread<=100
 longLabel PCCR spread <= 100 nts
 
-track q-value<1
+track e-value<1
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.99_3.bb
-shortLabel q-value<1
-longLabel PCCR q-value < 1
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.99_4.bb
+shortLabel e-value<1
+longLabel PCCR e-value < 1
 
 
-track q-value<=0.5
+track e-value<=0.5
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.5_3.bb
-shortLabel q-value<=0.5
-longLabel PCCR q-value <= 0.5
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.5_4.bb
+shortLabel e-value<=0.5
+longLabel PCCR e-value <= 0.5
 
-track q-value<=0.1 
+track e-value<=0.1 
 type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 0
-bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.1_3.bb
-shortLabel q-value<=0.1 
-longLabel PCCR q-value <= 0.1  
+bigDataUrl panhandles_preprocessed_remove_CDS_and_non_coding_some_exons_evo_qvalue_new_cutoff_0.1_4.bb
+shortLabel e-value<=0.1 
+longLabel PCCR e-value <= 0.1  
 
 
 track known_RNA_structures
