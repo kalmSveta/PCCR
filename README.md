@@ -26,14 +26,15 @@ The categories are CUMULATIVE. Additionaly, color of the structure indicates mut
 ### PCCRs classified by the spread, nts:
 spread <= 1000, 100\
 The categories are CUMULATIVE. Additionaly, color of the structure indicates mutually exclusive categories:
-- pink - 100<spread<=1000
-- violet - spread<=100
+- cantaloupe - 100<spread<=1000
+- rose - spread<=100
 
 ### PCCRs classified by the evolutionary conservation e-value:
-e-value <= 0.5, 0.05\
+e-value <1, <= 0.5, <= 0.05\
 The categories are CUMULATIVE. Additionaly, color of the structure indicates mutually exclusive categories:
-- light blue - 0.05<e-value<=0.5
-- dark blue - e-value<=0.05
+- pink - e-value<1
+- violet - 0.05<e-value<=0.5
+- blue - e-value<=0.05
 
 ### PCCRs intersected with known long-range RNA structures
 - black - known structures
@@ -43,6 +44,7 @@ The categories are CUMULATIVE. Additionaly, color of the structure indicates mut
 - icSHAPe - red for plus strand and blue for minus strand. 
 - PARIS
 - LigRseq
+- RIC-seq
 
 ### Experimental data of RNA pol II inhibition:
 - a-amanitin 1 mcg/mL
